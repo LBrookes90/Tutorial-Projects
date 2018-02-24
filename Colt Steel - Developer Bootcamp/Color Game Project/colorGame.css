@@ -1,0 +1,80 @@
+body {
+	background: #232323;
+	margin: 0;
+	font-family: "Lucida Sans";
+}
+
+h1 {
+	color: #FFF;
+	line-height: 1.1;
+	text-align: center;
+	background-color: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	padding: 20px 0;
+	-moz-transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	transition: background 0.5s;
+}
+
+h1 > #colorDisplay {
+	display: block;
+	font-size: 200%;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+#container {
+	max-width: 600px;
+	margin: 20px auto;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+}
+
+#stripe span {
+	color: #000;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 0.05em;
+	font-size: inherit;
+	outline: none;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.selected,
+button:hover {
+	background-color: steelblue;
+	color: #FFF;
+	cursor: pointer;
+}
+
+#container .square {
+	width: 30%;
+	padding-top: 30%;
+	margin: 1.66%;
+	background: purple;
+	border-radius: 25%;
+	-moz-transition: background 0.5s ease-in-out;
+	-webkit-transition: background 0.5s ease-in-out;
+	transition: background 0.5s ease-in-out;
+}
